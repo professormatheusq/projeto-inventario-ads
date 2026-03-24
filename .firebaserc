@@ -1,7 +1,7 @@
 {
   "projects": {
-    "dev": "inventory-dev",
-    "prod": "inventory-prod"
+    "dev": "projeto-inventario-ads-dev",
+    "prod": "projeto-inventario-ads"
   }
 }
 
