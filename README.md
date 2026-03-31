@@ -124,6 +124,10 @@ You do not need Cloud Functions or a paid plan for this version.
 
 ## GitHub Actions secrets
 
+The deploy jobs run inside the GitHub environments named `dev` and `prod`.
+Store the matching secrets in those environments, or define them as repository
+secrets if you prefer a shared configuration.
+
 Required secrets for `dev`:
 
 - `FIREBASE_SERVICE_ACCOUNT_DEV`
@@ -156,5 +160,5 @@ GitHub workflows:
 
 ## Notes
 
-- The `functions/` folder can remain in the repository as legacy reference code, but it is no longer deployed.
+- The `functions/` folder can remain in the repository as legacy reference code, but it is no longer deployed or installed as part of the active workspace.
 - Existing products continue to work. New writes add `lastMovementId` automatically.

@@ -2,8 +2,7 @@
   "name": "inventory-management-system",
   "private": true,
   "workspaces": [
-    "web",
-    "functions"
+    "web"
   ],
   "scripts": {
     "dev": "npm run dev --workspace web",
@@ -15,8 +14,5 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  },
-  "dependencies": {
-    "firebase": "^12.11.0"
   }
 }
