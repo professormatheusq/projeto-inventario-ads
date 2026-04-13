@@ -1,7 +1,7 @@
 {
   "projects": {
-    "dev": "projeto-inventario-ads-dev",
-    "prod": "projeto-inventario-ads"
+    "dev": "projeto-cadastro-firebase-dev",
+    "prod": "projeto-cadastro-firebas-fe829"
   }
 }
 
